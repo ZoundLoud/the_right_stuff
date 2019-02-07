@@ -1,4 +1,5 @@
 import React from 'react';
+import Viewall from './Viewall.jsx'
 
 class App extends React.Component {
   constructor(props) {
@@ -9,7 +10,12 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div>Hello World</div>
+      <div>
+        <div>Hello world</div>
+        <Viewall />
+      </div>
     )
   }
 }
+
+export default App;
