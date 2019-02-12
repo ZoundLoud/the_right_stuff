@@ -1,8 +1,24 @@
 CREATE DATABASE IF NOT EXISTS zoundloud;
 
+use zoundloud;
+
+CREATE TABLE if not exists relatedsongs (
+  song_id int not null auto_increment, 
+  artistName varchar(35) not null,
+  album_pic varchar(110) not null, 
+  artist_pic varchar(110) not null,
+  numComments int default null,
+  numPlays int default null, 
+  numLikes int default null,
+  numReposts int default null,
+  pro_user boolean not null,
+  primarysongidentifier int not null,
+  primary key(song_id)
+);
+
+
 -- CREATE TABLE Artists if not exists {
 --   id int not null auto_increment,
---   name varchar(35) not null, 
 --   avatar_pic_url varchar(110) not null,
 --   pro_user boolean not null, 
 --   location varchar(100)
@@ -14,19 +30,6 @@ CREATE DATABASE IF NOT EXISTS zoundloud;
 --   play_pic_url varchar(110),
 --   author_id int not null
 -- }
-
-CREATE TABLE Related_Songs if not exists {
-  song_id int not null auto_increment, 
-  artistId int not null,
-  album_pic varchar(110) not null, 
-  artist_pic varchar(110) not null,
-  numComments int,
-  numPlays int, 
-  numLikes int,
-  numReposts int,
-  hashTagName varchar(35),
-  primarysongidentifier int not null
-}
 
 -- CREATE TABLE Likes if not exists {
 --   id int not null auto_increment,
