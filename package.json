@@ -9,7 +9,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
-    "seed": "node relatedtracks.js"
+    "seed": "node relatedtracks.js",
+    "dbpopulate": "mysql -uroot '' < dbschema.sql"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.14",
@@ -17,11 +18,14 @@
     "@fortawesome/free-regular-svg-icons": "^5.7.1",
     "@fortawesome/free-solid-svg-icons": "^5.7.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
+    "aws-sdk": "^2.401.0",
     "faker": "^4.1.0",
     "i": "^0.3.6",
+    "image-downloader": "^3.4.2",
     "mysql": "^2.16.0",
     "nodemon": "^1.18.9",
     "npm": "^6.7.0",
+    "path": "^0.12.7",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "sequelize": "^4.42.0",
