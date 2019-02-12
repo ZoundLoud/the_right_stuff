@@ -1,14 +1,14 @@
-var faker = require("faker");
+const faker = require('faker');
 
 for (let i = 0; i < 21; i++) {
-  var randomName = faker.name.findName();
-  console.log(randomName)
-  var srcimage = faker.image.avatar()
+  const randomName = faker.name.findName();
+  console.log(randomName);
+  var srcimage = faker.image.avatar();
   console.log(srcimage);
 }
 // var randomName = faker.name.findName(); // Caitlyn Kerluke
 // var randomName = faker.name.findName();
-var srcimage = faker.image.avatar()
+var srcimage = faker.image.avatar();
 
 // const User = {
 //   randomName = faker.name.findName(),
