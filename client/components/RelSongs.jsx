@@ -12,27 +12,19 @@ function RelSongs({ song, key }) {
       <div>
         <span className="gray">
           <FontAwesomeIcon icon="play" className="icon" />
-          {' '}
           <span className="details">{song.plays}</span>
-          {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="heart" className="icon" />
-          {' '}
           <span className="details">{song.likes}</span>
-          {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="retweet" size="1x" />
-          {' '}
           <span className="details">{song.reposts}</span>
-          {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="comment-alt" className="icon" />
-          {' '}
           <span className="details">{song.comments}</span>
-          {' '}
         </span>
       </div>
     </li>

@@ -49,3 +49,10 @@ li {
 .details {
   font-size: 11px;
 }
+span.gray {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+span.details {
+  padding-left: 2px;
+}
