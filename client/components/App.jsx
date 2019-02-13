@@ -8,6 +8,8 @@ import {
 import RelSongsBox from './RelSongsBox.jsx';
 import PlaylistsBox from './PlaylistsBox.jsx';
 import styles from './RelSongsBox.css';
+import RepostsBox from './RepostsBox.jsx';
+import LikesBox from './LikesBox.jsx';
 
 
 library.add(faHeart);
@@ -29,6 +31,8 @@ class App extends React.Component {
         <div>Hello React</div>
         <RelSongsBox />
         <PlaylistsBox />
+        <RepostsBox />
+        <LikesBox />
       </div>
 
 

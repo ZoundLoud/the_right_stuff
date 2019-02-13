@@ -5,32 +5,32 @@ import styles from './RelSongsBox.css';
 function PlayListItem({ playlist, key }) {
   return (
     <li key={key}>
-      <div className="gray">{playlist.creator}</div>
+      <div className="name">{playlist.creator}</div>
       <div className="songName">{playlist.title}</div>
       <div><img alt={`${playlist.title} playpic`} src={`${playlist.playlistPic}`} /></div>
       <div>
         <span className="gray">
           <FontAwesomeIcon icon="play" className="icon" />
           {' '}
-          {playlist.plays}
+          <span className="details">{playlist.plays}</span>
           {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="heart" className="icon" />
           {' '}
-          {playlist.likes}
+          <span className="details">{playlist.likes}</span>
           {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="retweet" size="1x" />
           {' '}
-          {playlist.reposts}
+          <span className="details">{playlist.reposts}</span>
           {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="comment-alt" className="icon" />
           {' '}
-          {playlist.comments}
+          <span className="details">{playlist.comments}</span>
           {' '}
         </span>
       </div>
