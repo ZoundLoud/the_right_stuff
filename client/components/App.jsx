@@ -7,6 +7,8 @@ import {
 
 import RelSongsBox from './RelSongsBox.jsx';
 import PlaylistsBox from './PlaylistsBox.jsx';
+import styles from './RelSongsBox.css';
+
 
 library.add(faHeart);
 library.add(faPlay);
