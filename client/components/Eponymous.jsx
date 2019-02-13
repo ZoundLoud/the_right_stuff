@@ -1,10 +1,12 @@
 import React from 'react';
+import styles from './RelSongsBox.css';
 
-function Epony(props) {
+
+function Epony({ name }) {
   return (
     <span>
-      <span className="gray">Related Tracks</span>
-      <span className="gray">View all</span>
+      <span className="epony">{name}</span>
+      <span className="epony">View all</span>
     </span>
   );
 }

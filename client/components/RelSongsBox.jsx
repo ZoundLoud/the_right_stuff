@@ -16,7 +16,7 @@ class RelSongsBox extends React.Component {
   render() {
     return (
       <div>
-        <Epony />
+        <Epony name="Related Tracks" />
         <ul>
           {this.state.relatedSongs.map((eachSong, key) => (
             <RelSongs song={eachSong} key={`${eachSong.primarySong}_related_${key}`} />

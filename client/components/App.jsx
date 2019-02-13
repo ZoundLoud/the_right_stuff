@@ -6,6 +6,9 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import RelSongsBox from './RelSongsBox.jsx';
+import PlaylistsBox from './PlaylistsBox.jsx';
+import styles from './RelSongsBox.css';
+
 
 library.add(faHeart);
 library.add(faPlay);
@@ -23,8 +26,9 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <div>Hello World</div>
+        <div>Hello React</div>
         <RelSongsBox />
+        <PlaylistsBox />
       </div>
 
 

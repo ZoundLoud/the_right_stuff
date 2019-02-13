@@ -4,7 +4,7 @@ ul {
 .icon, .gray {
   color: #999;
 }
-body {
+#app {
   background: #ffffff
 }
 li>div>img{
@@ -23,3 +23,10 @@ li>div>img{
   {
     font: 12px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
   }
+.epony {
+  font-size: 14px;
+  font: 12px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+  color: #999;
+
+
+}
