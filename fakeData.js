@@ -3,7 +3,7 @@ const fakeData = [
   {
     artist: 'Bryana Harvey',
     songName: 'Summoak',
-    albumPic: 'http://lorempixel.com/640/400',
+    albumPic: 'http://lorempixel.com/640/400/fashion',
     artistPic: 'http://lorempixel.com/640/480/people',
     location: 'Merlside, Haiti',
     comments: 966,
