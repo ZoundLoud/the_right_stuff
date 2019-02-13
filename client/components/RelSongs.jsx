@@ -1,14 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import RelSongsBox from './RelSongsBox';
 import styles from './RelSongsBox.css';
 
 
-function RelSong({ song, key }) {
+function RelSongs({ song, key }) {
   return (
     <li key={key}>
       <div className="gray">{song.artist}</div>
-      <div>{song.songName}</div>
+      <div className="songName">{song.songName}</div>
       <div><img alt={`${song.songName} albumPic`} src={`${song.albumPic}`} /></div>
       <div>
         <span className="gray">
@@ -24,7 +23,7 @@ function RelSong({ song, key }) {
           {' '}
         </span>
         <span className="gray">
-          <FontAwesomeIcon icon="retweet" className="icon" />
+          <FontAwesomeIcon icon="retweet" size="1x" />
           {' '}
           {song.reposts}
           {' '}
@@ -40,4 +39,4 @@ function RelSong({ song, key }) {
   );
 }
 
-export default RelSong;
+export default RelSongs;

@@ -12,3 +12,14 @@ li>div>img{
   width: 50px;
   height: 50px;
 }
+.icon {
+  height: 9px;
+  width: 9px;
+}
+.gray {
+  font: 12px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+}
+.songName 
+  {
+    font: 12px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+  }
