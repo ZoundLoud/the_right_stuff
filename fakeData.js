@@ -2,6 +2,7 @@
 const fakeData = [
   {
     artist: 'Bryana Harvey',
+    songName: 'Summoak',
     albumPic: 'http://lorempixel.com/640/480',
     artistPic: 'http://lorempixel.com/640/480/people',
     location: 'Merlside, Haiti',
@@ -14,6 +15,7 @@ const fakeData = [
   },
   {
     artist: 'Verdie Rempel',
+    songName: 'twas Lil Kim',
     albumPic: 'http://lorempixel.com/640/480',
     artistPic: 'http://lorempixel.com/640/480/people',
     location: 'Jaceton, Paraguay',
@@ -26,6 +28,7 @@ const fakeData = [
   },
   {
     artist: 'Marcus Auer',
+    songName: 'Hardboiled',
     albumPic: 'http://lorempixel.com/640/480',
     artistPic: 'http://lorempixel.com/640/480/people',
     location: 'Tianaburgh, Cayman Islands',

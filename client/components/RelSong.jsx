@@ -1,14 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types'; // ES6
 import RelatedSongsList from './RelSongBox.jsx/index.js';
 import Epony from './Eponymous.jsx';
 
-function RelSong(props) {
+
+function RelSong({ eachSong, key }) {
   return (
-    <div>
-      Related Songs Component
-      <Epony />
-      <RelatedSongsList />
-    </div>
+    <li>{eachSong.songName}</li>
   );
 }
 
