@@ -3,8 +3,8 @@ import React from 'react';
 function Epony(props) {
   return (
     <span>
-      <span>Related Tracks</span>
-      <span>View all</span>
+      <span className="gray">Related Tracks</span>
+      <span className="gray">View all</span>
     </span>
   );
 }
