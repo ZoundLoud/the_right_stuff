@@ -2,7 +2,7 @@
 const fakeData = [
   {
     artist: 'Bryana Harvey',
-    songName: 'Summoak',
+    songName: 'SUMMOAK',
     albumPic: 'http://lorempixel.com/640/400/fashion',
     artistPic: 'http://lorempixel.com/640/480/people',
     location: 'Merlside, Haiti',

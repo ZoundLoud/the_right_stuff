@@ -18,15 +18,34 @@ li>div>img{
 }
 .gray {
   font: 12px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+  font-weight: 100;
 }
-.songName 
+.songName, .name
   {
-    font: 12px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+    font: 14px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+    font-weight: 100;
+  }
+  .name {
+    color: #999;
   }
 .epony {
   font-size: 14px;
-  font: 12px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
+  font: 14px/1.4 "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Garuda,Verdana,Tahoma,sans-serif;
   color: #999;
-
-
+  font-weight: 100;
+}
+.bubble {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.bubble:hover {
+  cursor: pointer;
+}
+li {
+  padding: 5px 0;
+}
+.details {
+  font-size: 11px;
 }

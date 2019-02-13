@@ -6,32 +6,32 @@ import styles from './RelSongsBox.css';
 function RelSongs({ song, key }) {
   return (
     <li key={key}>
-      <div className="gray">{song.artist}</div>
+      <div className="name">{song.artist}</div>
       <div className="songName">{song.songName}</div>
       <div><img alt={`${song.songName} albumPic`} src={`${song.albumPic}`} /></div>
       <div>
         <span className="gray">
           <FontAwesomeIcon icon="play" className="icon" />
           {' '}
-          {song.plays}
+          <span className="details">{song.plays}</span>
           {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="heart" className="icon" />
           {' '}
-          {song.likes}
+          <span className="details">{song.likes}</span>
           {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="retweet" size="1x" />
           {' '}
-          {song.reposts}
+          <span className="details">{song.reposts}</span>
           {' '}
         </span>
         <span className="gray">
           <FontAwesomeIcon icon="comment-alt" className="icon" />
           {' '}
-          {song.comments}
+          <span className="details">{song.comments}</span>
           {' '}
         </span>
       </div>
