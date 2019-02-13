@@ -2,7 +2,7 @@ import React from 'react';
 import fakeData from '../../fakeData.js';
 import RelSong from './RelSong.jsx';
 
-class RelatedSongsList extends React.Component {
+class RelSongsBox extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

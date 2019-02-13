@@ -1,8 +1,8 @@
 import React from 'react';
-import RelatedSongsList from './RelSongsList.jsx';
+import RelatedSongsList from './RelSongBox.jsx/index.js';
 import Epony from './Eponymous.jsx';
 
-function RelSongs(props) {
+function RelSong(props) {
   return (
     <div>
       Related Songs Component
