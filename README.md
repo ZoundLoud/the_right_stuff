@@ -2,7 +2,7 @@
 
 # Project Name
 
-> Project description
+This repo is no longer up to date nor is it meant for deployment. Please refer to https://github.com/ZoundLoud/service_Amber_right_bar instead.
 
 ## Related Projects
 
